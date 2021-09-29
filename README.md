@@ -1,12 +1,16 @@
-- 👋 Hi, I’m @heeyunlee
-- 👀 I’m interested in Flutter, Swift, and mobile development in general.
-- 🌱 I'm a student at Pace University, majoring in Business Analytics and Finance
-- 📫 How to reach me info@heeyunlee.com
-- Check out my app!
+<a href="https://www.linkedin.com/in/heeyunlee/"><img src="readme_assets/linkedin-brands.svg" height="32"></img></a>
+&nbsp;
+<a href="mailto:info@heeyunlee.com"><img src="readme_assets/envelope-solid.svg" height="32"></img></a>
+
+### 👋 Hi, I’m Heeyun Lee
+
+#### I'm a Flutter developer currently based in New York, NY.
+
+##### NOW
+- 💡 I'm currently working on a Flutter project, [Break](https://github.com/heeyunlee/herakless). Check out the app!
   - iOS: https://apps.apple.com/us/app/herakless-workout-player/id1555829140
   - Android: https://play.google.com/store/apps/details?id=com.healtine.playerh
+- 📖 Currently learning Swift
 
-<!---
-heeyunlee/heeyunlee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+##### BIO
+- 🏫 I'm a senior at Pace University, majoring in Business Analytics and Finance. I will be graduating this fall.
