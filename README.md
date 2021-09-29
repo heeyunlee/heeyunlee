@@ -1,3 +1,6 @@
+<a href="https://www.linkedin.com/in/heeyunlee/"><img src="readme_assets/linkedin.svg" height="24"></img></a>
+&nbsp;
+
 ### 👋 Hi, I’m Heeyun Lee
 
 #### I'm a senior at Pace University, and I really enjoy building cool mobile applications.
@@ -38,14 +41,3 @@
 &nbsp;
 <a href="https://code.visualstudio.com/"><img src="readme_assets/vscode.svg" height="32"></img></a>
 &nbsp;
-
-
-<br>
-
-### How To Reach Me
-
-<a href="https://www.linkedin.com/in/heeyunlee/"><img src="readme_assets/linkedin.svg" height="28"></img></a>
-&nbsp;
-<a href="mailto:info@heeyunlee.com"><img src="readme_assets/email_white_24dp.svg" height="32"></img></a>
-&nbsp;
-<a href="https://heeyunlee.com/"><img src="readme_assets/language_white_24dp.svg" height="32"></img></a>
