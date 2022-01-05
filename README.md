@@ -3,25 +3,36 @@
 
 ### 👋 Hi, I’m Heeyun Lee
 
-#### I'm a senior at Pace University, and I really enjoy building cool mobile applications.
-
+<br>
 <br>
 
-### About
-- 🏫 I'm a senior at Pace University, majoring in Business Analytics and Finance. I will be graduating this fall.
+
+## About
+I'm a recent-grad at Pace University, majoring in Finance and Business Analytics. While I learned R, SQL, Excel, and Python in school, I also did multiple projects with Flutter and really enjoy creating really cool mobile applications.
+
+  - What is [Business Analytics], anyway?
+    - In short, I learned a little bit of everything from business and finance to statistics and data modeling. It gave me foundational knowledge regarding many concepts such as predictive modeling, data mining, and data visualization.
+
+### More About Me
 - 🪖 I served in the Republic of Korea Marine Corps as a Signal Corpsman for two years.
 
+
 <br>
 
-### Projects
-- 💡 I'm currently working on a project, ~~Herakles~~ Break, which is a health & fitness logging app built with Flutter and Firebase. Check out the app!
-  - Github: https://github.com/heeyunlee/herakless
-  - iOS: https://apps.apple.com/us/app/herakless-workout-player/id1555829140
-  - Android: https://play.google.com/store/apps/details?id=com.healtine.playerh
+## Projects
+### CCCC: Expense Tracker, Automatic Calorie Counter
+- CCCC is a nutrition-focued expense tracker and automatic calorie counter. I used Plaid API to connect to 
+  - [Github Repo](https://github.com/heeyunlee/cccc)
+
+### Break! - Workout Player
+- Herakles is a health & fitness logging app built with Flutter and Firebase. Check out the app!
+  - [Github](https://github.com/heeyunlee/herakless)
+  - [iOS App Store](https://apps.apple.com/us/app/herakless-workout-player/id1555829140)
+  - [Android Play Store](https://play.google.com/store/apps/details?id=com.healtine.playerh)
   
 <br>
 
-### ⚒️ Languages & Tools
+## ⚒️ Languages & Tools
 
 <a href="https://dart.dev/"><img src="readme_assets/dart.svg" height="32"></img></a>
 &nbsp;
@@ -41,3 +52,5 @@
 &nbsp;
 <a href="https://code.visualstudio.com/"><img src="readme_assets/vscode.svg" height="32"></img></a>
 &nbsp;
+
+[Business Analytics]: https://www.pace.edu/program/business-analytics-bba
