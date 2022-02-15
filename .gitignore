@@ -1,0 +1,7 @@
+# VSCODE related
+.vscode
+.idea
+
+# Dart related files
+dart_practice/.packages
+dart_practice/.dart_tool
