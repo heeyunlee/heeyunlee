@@ -1,3 +1,5 @@
+import 'package:dart_leetcode/0733_flood_fill.dart';
+
 import '0003_longest_substring_without_repeating_char.dart';
 import '0005_longest_palindromic_substring.dart';
 import '0015_threesum.dart';
@@ -13,6 +15,7 @@ import '0367_valid_perfect_square.dart';
 import '0557_reverse_words_in_a_string.dart';
 import '0704_binary_search.dart';
 import '0811_subdomain_visit_counter.dart';
+import '1100_find_k_length_substrings_with_no_repeated_characters.dart';
 import '1249_min_remove_to_make_valid.dart';
 
 void main1() {
@@ -198,4 +201,23 @@ void main16() {
   ];
 
   print(subdomainVisitCounter(input));
+}
+
+void main17() {
+  final image = [
+    [1, 1, 0],
+    [0, 1, 0],
+    [1, 1, 1],
+  ];
+  final sr = 1;
+  final sc = 1;
+  final newColor = 2;
+
+  print(floodFill(image, sr, sc, newColor));
+}
+
+void main18() {
+  final a = "havefunonleetcode";
+  final b = 5;
+  print(numKLenSubstrNoRepeats(a, b));
 }
