@@ -3,19 +3,14 @@
 
 ### 👋 Hi, I’m Heeyun Lee
 
-<br>
-<br>
-
-
 ## About
-I'm a recent-grad at Pace University, majoring in Finance and Business Analytics. While I learned R, SQL, Excel, and Python in school, I also did multiple projects with Flutter and really enjoy creating really cool mobile applications.
+I am a software engineer working with Flutter, Dart, and Swift. Most recently, I worked on the mobile team at [Tonal](https://www.tonal.com/), the world’s smartest home gym and personal trainer, where we used Flutter to make Tonal’s mobile application for both iOS and Android. By being part of this small but mighty team, I had the pleasure of working alongside the best of the bests, built cool features, and even had a chance to be the tech lead on some of the projects.
 
-  - What is [Business Analytics], anyway?
-    - In short, I learned a little bit of everything from business and finance to statistics and data modeling. It gave me foundational knowledge regarding many concepts such as predictive modeling, data mining, and data visualization.
+I have been working with Flutter since late 2020, and ever since then, the framework never ceased to improve and the community continued to grow bigger and bigger. And with some really exciting announcements from [the Flutter Forward event](https://flutter.dev/events/flutter-forward), I have nothing but excitement about this framework and the community for the future and will continue to contribute to the ecosystem.
 
 ### More About Me
-- 🪖 I served in the Republic of Korea Marine Corps as a Signal Corpsman for two years.
-
+- 🎓I graduated from Pace University, double majoring in Business Analytics and Finance. For Business Analytics, I learned how to think analytically, and I have been incorporating this skill into the real world by building, analyzing, adapting, and improving on the new feature development cycle.
+- 🪖 I also served in the Republic of Korea Marine Corps as a Signal Corpsman for two years.
 
 <br>
 
