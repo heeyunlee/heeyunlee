@@ -1,31 +1,21 @@
 <a href="https://www.linkedin.com/in/heeyunlee/"><img src="readme_assets/linkedin.svg" height="24"></img></a>
 &nbsp;
 
-### 👋 Hi, I’m Heeyun Lee
+# 👋 Hello!
 
-## About
-I am a software engineer working with Flutter, Dart, and Swift. Most recently, I worked on the mobile team at [Tonal](https://www.tonal.com/), the world’s smartest home gym and personal trainer, where we used Flutter to make Tonal’s mobile application for both iOS and Android. By being part of this small but mighty team, I had the pleasure of working alongside the best of the bests, built cool features, and even had a chance to be the tech lead on some of the projects.
+I am Heeyun Lee, a sofware engineer working with Flutter, Swift, and more.
 
-I have been working with Flutter since late 2020, and ever since then, the framework never ceased to improve and the community continued to grow bigger and bigger. And with some really exciting announcements from [the Flutter Forward event](https://flutter.dev/events/flutter-forward), I have nothing but excitement about this framework and the community for the future and will continue to contribute to the ecosystem.
-
-### More About Me
-- 🎓I graduated from Pace University, double majoring in Business Analytics and Finance. For Business Analytics, I learned how to think analytically, and I have been incorporating this skill into the real world by building, analyzing, adapting, and improving on the new feature development cycle.
-- 🪖 I also served in the Republic of Korea Marine Corps as a Signal Corpsman for two years.
-
-<br>
+- 📈 I am currently working as a software engineer at [dub](https://www.dubapp.com/), the US's first copy-trading platform.
+- 💻 Previously, I worked as a software engineer at [Tonal](https://www.tonal.com/)’s mobile team, the world’s smartest home gym and personal trainer.
+- 🪖 I served in the Republic of Korea Marine Corps as a Signal Corpsman for two years.
+- 🎓I graduated from Pace University, double majoring in Business Analytics and Finance.
 
 ## Projects
-### CCCC: Expense Tracker, Automatic Calorie Counter
-- CCCC is a nutrition-focued expense tracker and automatic calorie counter. I used Plaid API to connect to 
-  - [Github Repo](https://github.com/heeyunlee/cccc)
 
-### Break! - Workout Player
-- Herakles is a health & fitness logging app built with Flutter and Firebase. Check out the app!
-  - [Github](https://github.com/heeyunlee/herakless)
-  - [iOS App Store](https://apps.apple.com/us/app/herakless-workout-player/id1555829140)
-  - [Android Play Store](https://play.google.com/store/apps/details?id=com.healtine.playerh)
-  
-<br>
+### CCCC: Expense Tracker, Automatic Calorie Counter
+
+- CCCC is a nutrition-focued expense tracker and automatic calorie counter. I used Plaid API to connect to
+  - [Github Repo](https://github.com/heeyunlee/cccc)
 
 ## ⚒️ Languages & Tools
 
