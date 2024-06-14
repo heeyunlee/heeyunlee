@@ -1,3 +1,6 @@
+import 'package:dart_leetcode/345_reverse_vowels_of_a_string.dart';
+import 'package:dart_leetcode/605_can_place_flowers.dart';
+
 import '0003_longest_substring_without_repeating_char.dart';
 import '0005_longest_palindromic_substring.dart';
 import '0015_threesum.dart';
@@ -13,11 +16,26 @@ import '0367_valid_perfect_square.dart';
 import '0557_reverse_words_in_a_string.dart';
 import '0704_binary_search.dart';
 import '0811_subdomain_visit_counter.dart';
+import '1071_greatest_common_divisor_of_strings.dart';
 import '1249_min_remove_to_make_valid.dart';
+import '1768_merge_strings_alternatively.dart';
 
-void main1() {
+void main() {
   final threesumList = [-2, 0, 1, 1, 2];
   print(threesum(threesumList));
+
+  final solutionFor1768 = mergeStringAlternatively('abc', 'pqr');
+  print(solutionFor1768);
+
+  final solutionFor1071 = gcdOfStrings('ABCABC', 'ABC');
+  print(solutionFor1071);
+
+  final solution605 = Solution605();
+  print(solution605.canPlaceFlowers([1, 0, 0, 0, 1], 1));
+
+  final solution345 = Solution345();
+  final a = solution345.reverseVowels('lEetCOde');
+  print(a);
 }
 
 void main2() {
