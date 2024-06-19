@@ -1,3 +1,4 @@
+import 'package:dart_leetcode/0283_move_zeros.dart';
 import 'package:dart_leetcode/345_reverse_vowels_of_a_string.dart';
 import 'package:dart_leetcode/605_can_place_flowers.dart';
 
@@ -36,6 +37,11 @@ void main() {
   final solution345 = Solution345();
   final a = solution345.reverseVowels('lEetCOde');
   print(a);
+
+  final solution283 = Solution283();
+  final solution283Input = [0, 1, 0, 3, 12];
+  solution283.moveZeros(solution283Input);
+  print(solution283Input);
 }
 
 void main2() {
