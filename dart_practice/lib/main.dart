@@ -1,7 +1,7 @@
 import 'package:dart_leetcode/0283_move_zeros.dart';
 import 'package:dart_leetcode/0392_is_subsequence.dart';
-import 'package:dart_leetcode/345_reverse_vowels_of_a_string.dart';
-import 'package:dart_leetcode/605_can_place_flowers.dart';
+import 'package:dart_leetcode/0345_reverse_vowels_of_a_string.dart';
+import 'package:dart_leetcode/0605_can_place_flowers.dart';
 
 import '0003_longest_substring_without_repeating_char.dart';
 import '0005_longest_palindromic_substring.dart';
