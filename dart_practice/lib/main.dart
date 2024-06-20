@@ -20,6 +20,7 @@ import '0704_binary_search.dart';
 import '0811_subdomain_visit_counter.dart';
 import '1071_greatest_common_divisor_of_strings.dart';
 import '1249_min_remove_to_make_valid.dart';
+import '1732_find_the_highest_altitude.dart';
 import '1768_merge_strings_alternatively.dart';
 
 void main() {
@@ -54,6 +55,10 @@ void main() {
     4,
   );
   print(solution643Output);
+
+  final solution1732 = Solution1732();
+  final solution1732Output = solution1732.largestAltitude([-5, 1, 5, 0, -7]);
+  print(solution1732Output);
 }
 
 void main2() {
