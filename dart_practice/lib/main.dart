@@ -1,8 +1,3 @@
-import 'package:dart_leetcode/0283_move_zeros.dart';
-import 'package:dart_leetcode/0392_is_subsequence.dart';
-import 'package:dart_leetcode/0345_reverse_vowels_of_a_string.dart';
-import 'package:dart_leetcode/0605_can_place_flowers.dart';
-
 import '0003_longest_substring_without_repeating_char.dart';
 import '0005_longest_palindromic_substring.dart';
 import '0015_threesum.dart';
@@ -13,9 +8,14 @@ import '0053_max_sub_array.dart';
 import '0198_rorate_array.dart';
 import '0252_meeting_rooms1.dart';
 import '0253_meeting_rooms2.dart';
+import '0283_move_zeros.dart';
 import '0344_reverse_string.dart';
+import '0345_reverse_vowels_of_a_string.dart';
 import '0367_valid_perfect_square.dart';
+import '0392_is_subsequence.dart';
 import '0557_reverse_words_in_a_string.dart';
+import '0605_can_place_flowers.dart';
+import '0643_maximum_average_subarray.dart';
 import '0704_binary_search.dart';
 import '0811_subdomain_visit_counter.dart';
 import '1071_greatest_common_divisor_of_strings.dart';
@@ -47,6 +47,13 @@ void main() {
   final solution392 = Solution392();
   final solution392Output = solution392.isSubsequence('abc', 'ahbgdc');
   print(solution392Output);
+
+  final solution643 = Solution643();
+  final solution643Output = solution643.findMaxAverage(
+    [1, 12, -5, -6, 50, 3],
+    4,
+  );
+  print(solution643Output);
 }
 
 void main2() {
