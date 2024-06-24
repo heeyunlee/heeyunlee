@@ -1,4 +1,5 @@
 import 'package:dart_leetcode/0724_find_pivot_index.dart';
+import 'package:dart_leetcode/2390_removing_stars_from_a_string.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
@@ -18,5 +19,51 @@ void main() {
 
       expect(solution.pivotIndex(input), expectedOutput);
     });
+  });
+
+  group('Question 2390', () {
+    test(
+      'should solve for case 1 using removeStarsUsingRegExp() method',
+      () {
+        final solution = Solution2390();
+        final input = 'leet**cod*e';
+        final expectedOutput = 'lecoe';
+
+        expect(solution.removeStarsUsingRegExp(input), expectedOutput);
+      },
+    );
+
+    test(
+      'should solve for case 1 using removeStars() method',
+      () {
+        final solution = Solution2390();
+        final input = 'leet**cod*e';
+        final expectedOutput = 'lecoe';
+
+        expect(solution.removeStars(input), expectedOutput);
+      },
+    );
+
+    test(
+      'should solve for case 2 using removeStarsUsingRegExp() method',
+      () {
+        final solution = Solution2390();
+        final input = 'erase*****';
+        final expectedOutput = '';
+
+        expect(solution.removeStarsUsingRegExp(input), expectedOutput);
+      },
+    );
+
+    test(
+      'should solve for case 2 using removeStars() method',
+      () {
+        final solution = Solution2390();
+        final input = 'erase*****';
+        final expectedOutput = '';
+
+        expect(solution.removeStars(input), expectedOutput);
+      },
+    );
   });
 }
