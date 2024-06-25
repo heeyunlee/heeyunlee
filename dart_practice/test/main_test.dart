@@ -1,3 +1,4 @@
+import 'package:dart_leetcode/0104_maximum_depth_of_binary_tree.dart';
 import 'package:dart_leetcode/0206_reversed_linked_list.dart';
 import 'package:dart_leetcode/0724_find_pivot_index.dart';
 import 'package:dart_leetcode/2390_removing_stars_from_a_string.dart';
@@ -92,5 +93,24 @@ void main() {
         expect(solution.reverseList(input), expectedOutput);
       },
     );
+  });
+
+  group('Question 104', () {
+    test('should sove for case 1', () {
+      final solution = Solution104();
+      final input =
+          TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)));
+      const expectedOutput = 3;
+
+      expect(solution.maxDepth(input), expectedOutput);
+    });
+
+    test('should solve for case 2', () {
+      final solution = Solution104();
+      final input = TreeNode(1, null, TreeNode(2));
+      const expectedOutput = 2;
+
+      expect(solution.maxDepth(input), expectedOutput);
+    });
   });
 }
