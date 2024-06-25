@@ -1,5 +1,7 @@
 import 'dart:math' as math;
 
+import 'classes/tree_node.dart';
+
 /// [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description)
 ///
 /// Given the root of a binary tree, return its maximum depth.
@@ -20,16 +22,4 @@ class Solution104 {
 
     return 1 + (math.max(left, right));
   }
-}
-
-class TreeNode {
-  TreeNode([
-    this.val = 0,
-    this.left,
-    this.right,
-  ]);
-
-  int val;
-  TreeNode? left;
-  TreeNode? right;
 }
