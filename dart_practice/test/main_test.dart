@@ -1,3 +1,4 @@
+import 'package:dart_leetcode/0206_reversed_linked_list.dart';
 import 'package:dart_leetcode/0724_find_pivot_index.dart';
 import 'package:dart_leetcode/2390_removing_stars_from_a_string.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -63,6 +64,32 @@ void main() {
         final expectedOutput = '';
 
         expect(solution.removeStars(input), expectedOutput);
+      },
+    );
+  });
+
+  group('Question 206', () {
+    test(
+      'should solve for case 1',
+      () {
+        final solution = Solution206();
+        final input =
+            ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))));
+        final expectedOutput =
+            ListNode(5, ListNode(4, ListNode(3, ListNode(2, ListNode(1)))));
+
+        expect(solution.reverseList(input), expectedOutput);
+      },
+    );
+
+    test(
+      'should solve for case 2',
+      () {
+        final solution = Solution206();
+        final input = ListNode(1, ListNode(2));
+        final expectedOutput = ListNode(2, ListNode(1));
+
+        expect(solution.reverseList(input), expectedOutput);
       },
     );
   });
