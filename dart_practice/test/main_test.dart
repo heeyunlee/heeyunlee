@@ -1,4 +1,5 @@
 import 'package:dart_leetcode/0104_maximum_depth_of_binary_tree.dart';
+import 'package:dart_leetcode/0199_binary_tree_right_side_view.dart';
 import 'package:dart_leetcode/0206_reversed_linked_list.dart';
 import 'package:dart_leetcode/0724_find_pivot_index.dart';
 import 'package:dart_leetcode/0872_leaf_similar_trees.dart';
@@ -142,5 +143,44 @@ void main() {
 
       expect(solution.leafSimilar(root1, root2), expectedOutput);
     });
+  });
+
+  group('Question 199', () {
+    test(
+      'should solve for case 1',
+      () {
+        final solution = Solution199();
+        final input = TreeNode(
+          1,
+          TreeNode(2, null, TreeNode(5)),
+          TreeNode(3, null, TreeNode(4)),
+        );
+        final expected = [1, 3, 4];
+
+        expect(solution.rightSideView(input), expected);
+      },
+    );
+
+    test(
+      'should solve for case 2',
+      () {
+        final solution = Solution199();
+        final input = TreeNode(1, null, TreeNode(3));
+        final expected = [1, 3];
+
+        expect(solution.rightSideView(input), expected);
+      },
+    );
+
+    test(
+      'should solve for case 3',
+      () {
+        final solution = Solution199();
+        final input = null;
+        final expected = [];
+
+        expect(solution.rightSideView(input), expected);
+      },
+    );
   });
 }
