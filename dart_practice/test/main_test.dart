@@ -3,6 +3,7 @@ import 'package:dart_leetcode/0199_binary_tree_right_side_view.dart';
 import 'package:dart_leetcode/0206_reversed_linked_list.dart';
 import 'package:dart_leetcode/0700_search_in_a_binary_search_tree.dart';
 import 'package:dart_leetcode/0724_find_pivot_index.dart';
+import 'package:dart_leetcode/0841_keys_and_rooms.dart';
 import 'package:dart_leetcode/0872_leaf_similar_trees.dart';
 import 'package:dart_leetcode/2390_removing_stars_from_a_string.dart';
 import 'package:dart_leetcode/classes/tree_node.dart';
@@ -216,6 +217,36 @@ void main() {
         solution.searchBST(inputRoot, inputVal),
         expectedOutput,
       );
+    });
+  });
+
+  group('Question 841', () {
+    final solution = Solution841();
+
+    test('should solve for case 1', () {
+      final input = <List<int>>[
+        [1],
+        [2],
+        [3],
+        [],
+      ];
+
+      final expectedOutput = true;
+
+      expect(solution.canVisitAllRooms(input), expectedOutput);
+    });
+
+    test('should solve for case 2', () {
+      final input = <List<int>>[
+        [1, 3],
+        [3, 0, 1],
+        [2],
+        [0],
+      ];
+
+      final expectedOutput = false;
+
+      expect(solution.canVisitAllRooms(input), expectedOutput);
     });
   });
 }
