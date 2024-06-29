@@ -1,6 +1,7 @@
 import 'package:dart_leetcode/0104_maximum_depth_of_binary_tree.dart';
 import 'package:dart_leetcode/0199_binary_tree_right_side_view.dart';
 import 'package:dart_leetcode/0206_reversed_linked_list.dart';
+import 'package:dart_leetcode/0700_search_in_a_binary_search_tree.dart';
 import 'package:dart_leetcode/0724_find_pivot_index.dart';
 import 'package:dart_leetcode/0872_leaf_similar_trees.dart';
 import 'package:dart_leetcode/2390_removing_stars_from_a_string.dart';
@@ -182,5 +183,39 @@ void main() {
         expect(solution.rightSideView(input), expected);
       },
     );
+  });
+
+  group('Question 700', () {
+    test('should solve for case 1', () {
+      final solution = Solution700();
+      final inputRoot = TreeNode(
+        4,
+        TreeNode(2, TreeNode(1), TreeNode(3)),
+        TreeNode(7),
+      );
+      final inputVal = 2;
+      final expectedOutput = TreeNode(2, TreeNode(1), TreeNode(3));
+
+      expect(
+        solution.searchBST(inputRoot, inputVal)?.val,
+        expectedOutput.val,
+      );
+    });
+
+    test('should solve for case 2', () {
+      final solution = Solution700();
+      final inputRoot = TreeNode(
+        4,
+        TreeNode(2, TreeNode(1), TreeNode(3)),
+        TreeNode(7),
+      );
+      final inputVal = 5;
+      final expectedOutput = null;
+
+      expect(
+        solution.searchBST(inputRoot, inputVal),
+        expectedOutput,
+      );
+    });
   });
 }
