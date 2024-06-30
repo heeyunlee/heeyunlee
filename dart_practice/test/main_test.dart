@@ -5,6 +5,7 @@ import 'package:dart_leetcode/0700_search_in_a_binary_search_tree.dart';
 import 'package:dart_leetcode/0724_find_pivot_index.dart';
 import 'package:dart_leetcode/0841_keys_and_rooms.dart';
 import 'package:dart_leetcode/0872_leaf_similar_trees.dart';
+import 'package:dart_leetcode/1926_nearest_exit_from_entrance_in_maze.dart';
 import 'package:dart_leetcode/2390_removing_stars_from_a_string.dart';
 import 'package:dart_leetcode/classes/tree_node.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -248,5 +249,68 @@ void main() {
 
       expect(solution.canVisitAllRooms(input), expectedOutput);
     });
+  });
+
+  group('Question 1926', () {
+    final solution = Solution1926();
+
+    test(
+      'should solve for case 1',
+      () {
+        final maze = [
+          ["+", "+", ".", "+"],
+          [".", ".", ".", "+"],
+          ["+", "+", "+", "."],
+        ];
+        final entrance = [1, 2];
+        final expected = 1;
+
+        final actual = solution.nearestExit(maze, entrance);
+
+        expect(actual, expected);
+      },
+    );
+
+    test(
+      'should solve for case 2',
+      () {
+        final maze = [
+          ["+", ".", "+", "+", "+", "+", "+"],
+          ["+", ".", "+", ".", ".", ".", "+"],
+          ["+", ".", "+", ".", "+", ".", "+"],
+          ["+", ".", ".", ".", "+", ".", "+"],
+          ["+", "+", "+", "+", "+", ".", "+"],
+        ];
+        final entrance = [0, 1];
+        final expected = 12;
+
+        final actual = solution.nearestExit(maze, entrance);
+
+        expect(actual, expected);
+      },
+    );
+
+    test(
+      'should solve for case 3',
+      () {
+        final maze = [
+          [".", ".", ".", ".", ".", "+", ".", ".", "."],
+          [".", "+", ".", ".", ".", ".", ".", ".", "."],
+          [".", ".", "+", ".", "+", ".", "+", ".", "+"],
+          [".", ".", ".", ".", "+", ".", ".", ".", "."],
+          [".", ".", ".", ".", "+", "+", ".", ".", "."],
+          ["+", ".", ".", ".", ".", ".", ".", ".", "."],
+          [".", ".", ".", "+", ".", ".", ".", ".", "."],
+          [".", ".", ".", "+", ".", ".", ".", ".", "+"],
+          ["+", ".", ".", "+", ".", "+", "+", ".", "."],
+        ];
+        final entrance = [8, 4];
+        final expected = 5;
+
+        final actual = solution.nearestExit(maze, entrance);
+
+        expect(actual, expected);
+      },
+    );
   });
 }
