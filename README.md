@@ -10,13 +10,6 @@ I am Heeyun Lee, a sofware engineer working with Flutter, Swift, and more.
 - 🪖 I served in the Republic of Korea Marine Corps as a Signal Corpsman for two years.
 - 🎓I graduated from Pace University, double majoring in Business Analytics and Finance.
 
-## Projects
-
-### CCCC: Expense Tracker, Automatic Calorie Counter
-
-- CCCC is a nutrition-focued expense tracker and automatic calorie counter. I used Plaid API to connect to
-  - [Github Repo](https://github.com/heeyunlee/cccc)
-
 ## ⚒️ Languages & Tools
 
 <a href="https://dart.dev/"><img src="readme_assets/dart.svg" height="32"></img></a>
